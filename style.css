@@ -1,0 +1,33 @@
+.green-button {
+    background-color: green !important;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+    border: solid 2px red;
+    width: 150px;
+}
+
+.blue-button {
+    background-color: blue;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+    width: 150px;
+    border: solid 2px red;
+}
+
+
+
+
+
+.blue-button:hover {
+    background-color: white !important;
+    color: purple;
+}
+
+.green-button:hover {
+    background-color: yellow;
+    color: black;
+}
+
+

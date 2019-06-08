@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Testing Sequence of Pseudo Classes</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <p> Green Button - <br>
+        Default - Green Background, White Text, Red Border<br>
+        Hover - Yellow Background, Black Text, Red Border
+    </p>
+    <button type="button" class="green-button">Green</button>
+
+    <br><br>
+
+    <p> Blue Button - <br>
+        Default - Blue Background, White Text, Red Border<br>
+        Hover - White Background, Purple Text, Red Border
+    </p>
+    <button type="button" class="blue-button">Blue</button>
+
+    <br><br>
+
+    <p> Green + Blue button <br>
+        Expectation - Default & Hover - Property of Blue Button
+    </p>
+    <button type="button" class="green-button blue-button">Green+Blue</button>
+
+    <p> Blue + Green button <br>
+        Expectation - Default & Hover - Property of Green Button
+    </p>
+    <button type="button" class="blue-button green-button">Blue+Green</button>
+
+
+
+</body>
+
+</html>
